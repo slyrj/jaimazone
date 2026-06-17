@@ -24,11 +24,11 @@ OUTPUT_FILE     = "../data/produits.json"
 
 # Catégories JaiMaZone → URLs Amazon (toutes testées et fonctionnelles)
 CATEGORIES = {
-    "robot-cuisine": ("Robots Cuisine", "🤖", "https://www.amazon.fr/gp/bestsellers/kitchen"),
-    "cafe":          ("Café & Boissons", "☕", "https://www.amazon.fr/gp/bestsellers/kitchen/3637670031"),
-    "entretien":     ("Entretien",       "🧹", "https://www.amazon.fr/gp/bestsellers/kitchen/3637665031"),
-    "cuisson":       ("Cuisson",         "🍳", "https://www.amazon.fr/gp/bestsellers/kitchen/3637660031"),
-    "rangement":     ("Rangement",       "📦", "https://www.amazon.fr/gp/bestsellers/kitchen/3637655031"),
+    "robot-cuisine": ("Robots Cuisine", "🤖", "https://www.amazon.fr/gp/bestsellers/kitchen/57696031"),
+    "cafe":          ("Café & Boissons", "☕", "https://www.amazon.fr/gp/bestsellers/kitchen/57692031"),
+    "entretien":     ("Entretien",       "🧹", "https://www.amazon.fr/gp/bestsellers/kitchen/3575195031"),
+    "cuisson":       ("Cuisson",         "🍳", "https://www.amazon.fr/gp/bestsellers/kitchen/32039698031"),
+    "rangement":     ("Rangement",       "📦", "https://www.amazon.fr/gp/bestsellers/kitchen/2916060031"),
 }
 
 USER_AGENTS = [
