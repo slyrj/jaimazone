@@ -1,0 +1,205 @@
+PS D:\site\jaimazone\scraper> Taille: 320237 caractères
+Taille: : Le terme « Taille: » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
++ Taille: 320237 caractères
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Taille::String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS D:\site\jaimazone\scraper> --- DEBUT ---
+Au caractère Ligne:1 : 4
++    ~
+Expression manquante après l’opérateur unaire « - ».
+Au caractère Ligne:1 : 5
++ --- DEBUT ---
++     ~~~~~
+Jeton inattendu « DEBUT » dans l’expression ou l’instruction.
+Au caractère Ligne:1 : 3
++   ~
+L’opérateur « -- » ne fonctionne que sur les variables ou les propriétés.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+ 
+PS D:\site\jaimazone\scraper> <!doctype html><html lang="fr-fr" class="a-no-js" data-19ax5a9jf="dingo"><!-- sp:feature:head-start -->
+< : Le terme « < » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
++ ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS D:\site\jaimazone\scraper> <head><script>var aPageStart = (new Date()).getTime();</script><meta charset="utf-8"/>
+Au caractère Ligne:1 : 42
++ <head><script>var aPageStart = (new Date()).getTime();</script><meta  ...
++                                          ~
+Une expression est attendue après « ( ».
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedExpression
+ 
+PS D:\site\jaimazone\scraper> <!-- sp:end-feature:head-start -->
+< : Le terme « < » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
+Au caractère Ligne:1 : 1
++ <!-- sp:end-feature:head-start -->
++ ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS D:\site\jaimazone\scraper> <!-- sp:feature:csm:head-open-part1 -->
+< : Le terme « < » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
+Au caractère Ligne:1 : 1
++ ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS D:\site\jaimazone\scraper> 
+PS D:\site\jaimazone\scraper> <script type='text/javascript'>var ue_t0=ue_t0||+new Date();</script>
+Au caractère Ligne:1 : 47
++                                               ~~
+Le jeton « || » n’est pas un séparateur d’instruction valide.
+Au caractère Ligne:1 : 50
++ <script type='text/javascript'>var ue_t0=ue_t0||+new Date();</script>
++                                                  ~
+Expression manquante après l’opérateur unaire « + ».
+Au caractère Ligne:1 : 49
++                                                 ~
+Les expressions ne sont autorisées que comme premier élément d’un pipeline.
+Au caractère Ligne:1 : 50
++ <script type='text/javascript'>var ue_t0=ue_t0||+new Date();</script>
++                                                  ~~~
+Jeton inattendu « new » dans l’expression ou l’instruction.
+Au caractère Ligne:1 : 59
++                                                           ~
+Une expression est attendue après « ( ».
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+ 
+PS D:\site\jaimazone\scraper> <!-- sp:end-feature:csm:head-open-part1 -->
+< : Le terme « < » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
++ <!-- sp:end-feature:csm:head-open-part1 -->
++ ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS D:\site\jaimazone\scraper> <!-- sp:feature:cs-optimization -->
+< : Le terme « < » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
++ <!-- sp:feature:cs-optimization -->
++ ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS D:\site\jaimazone\scraper> <meta http-equiv='x-dns-prefetch-control' content='on'>
+< : Le terme « < » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
++ <meta http-equiv='x-dns-prefetch-control' content='on'>
++ ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS D:\site\jaimazone\scraper> <link rel="preconnect" href="https://images-eu.ssl-images-amazon.com" crossorigin>
+< : Le terme « < » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
++ <link rel="preconnect" href="https://images-eu.ssl-images-amazon.com" ...
++ ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS D:\site\jaimazone\scraper> <link rel="preconnect" href="https://m.media-amazon.com" crossorigin>
+< : Le terme « < » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
++ <link rel="preconnect" href="https://m.media-amazon.com" crossorigin>
++ ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS D:\site\jaimazone\scraper> <!-- sp:end-feature:cs-optimization -->
+< : Le terme « < » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
+Au caractère Ligne:1 : 1
++ <!-- sp:end-feature:cs-optimization -->
++ ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS D:\site\jaimazone\scraper> <!-- sp:feature:csm:head-open-part2 -->
+< : Le terme « < » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
+Au caractère Ligne:1 : 1
++ <!-- sp:feature:csm:head-open-part2 -->
++ ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+PS D:\site\jaimazone\scraper> <script type='text/javascript'>
+< : Le terme « < » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
+Au caractère Ligne:1 : 1
++ <script type='text/javascript'>
++ ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS D:\site\jaimazone\scraper> window.ue_ihb = (window.ue_ihb || window.ueinit || 0) + 1;
+Au caractère Ligne:1 : 32
++ window.ue_ihb = (window.ue_ihb || window.ueinit || 0) + 1;
++                                ~~
+Le jeton « || » n’est pas un séparateur d’instruction valide.
+Au caractère Ligne:1 : 49
++ window.ue_ihb = (window.ue_ihb || window.ueinit || 0) + 1;
++                                                 ~~
+Le jeton « || » n’est pas un séparateur d’instruction valide.
+Au caractère Ligne:1 : 52
++ window.ue_ihb = (window.ue_ihb || window.ueinit || 0) + 1;
++                                                    ~
+Les expressions ne sont autorisées que comme premier élément d’un pipeline.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+ 
+PS D:\site\jaimazone\scraper> if (window.ue_ihb === 1) {
+>> 
+>> var ue_csm = window,
+>>     ue_hob = +new Date();
+>> (function(d){var e=d.ue=d.ue||{},f=Date.now||function(){return+new Date};e.d=function(b){return f()-(b?0:d.ue_t0)};e.stub=function(b,a){if(!b[a]){var c=[];b[a]=function(){c.push([c.slice.call(arguments),e.d(),d.ue_id])};b[a].replay=function(b){for(var a;a=c.shift();)b(a[0],a[1],a[2])};b[a].isStub=1}};e.exec=function(b,a){return function(){try{return b.apply(this,arguments)}catch(c){ueLogError(c,{attribution:a||"undefined",logLevel:"WARN"})}}}})(ue_csm);
+Au caractère Ligne:3 : 1
++ var ue_csm = window,
++ ~~~
+Le mot clé « var » n’est pas pris en charge dans cette version du langage.
+Au caractère Ligne:4 : 24
++     ue_hob = +new Date();
++                        ~
+Une expression est attendue après « ( ».
+Au caractère Ligne:5 : 14
++ (function(d){var e=d.ue=d.ue||{},f=Date.now||function(){return+new Da ...
++              ~~~
+Le mot clé « var » n’est pas pris en charge dans cette version du langage.
+Au caractère Ligne:5 : 29
++ (function(d){var e=d.ue=d.ue||{},f=Date.now||function(){return+new Da ...
++ (function(d){var e=d.ue=d.ue||{},f=Date.now||function(){return+new Da ...
++                                  ~
+Expression manquante après « , ».
+Au caractère Ligne:5 : 31
++ (function(d){var e=d.ue=d.ue||{},f=Date.now||function(){return+new Da ...
++                               ~~~
+Les expressions ne sont autorisées que comme premier élément d’un pipeline.
+Au caractère Ligne:5 : 34
++ (function(d){var e=d.ue=d.ue||{},f=Date.now||function(){return+new Da ...
++                                  ~~~~~~~~~~
+Jeton inattendu « f=Date.now » dans l’expression ou l’instruction.
+Au caractère Ligne:5 : 44
++ (function(d){var e=d.ue=d.ue||{},f=Date.now||function(){return+new Da ...
++                                            ~~
+Le jeton « || » n’est pas un séparateur d’instruction valide.
+Au caractère Ligne:5 : 55
++ (function(d){var e=d.ue=d.ue||{},f=Date.now||function(){return+new Da ...
++                                                       ~
+Une expression est attendue après « ( ».
+Au caractère Ligne:5 : 99
++ ... te.now||function(){return+new Date};e.d=function(b){return f()-(b?0:d ...
++                                                                  ~
+Une expression est attendue après « ( ».
+Les erreurs d’analyse n’ont pas toutes été signalées. Corrigez les erreurs signalées, puis recommencez.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ReservedKeywordNotAllowed
+ 
+PS D:\site\jaimazone\scraper> 
+PS D:\site\jaimazone\scraper> 
+PS D:\site\jaimazone\scraper>     var ue_err_chan = 'jserr';
+Au caractère Ligne:1 : 5
++     var ue_err_chan = 'jserr';
++     ~~~
+Le mot clé « var » n’est pas pris en charge dans cette version du langage.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ReservedKeywordNotAllowed
+ 
+PS D:\site\jaimazone\scraper> (function(d,e){function h(f,b){if(!(a.ec>a.mxe)&&f){a.ter.push(f);b=b||{};var c=f.logLevel||b.logLevel;c&&c!==k&&c!==m&&c!==n&&c!==p||a.ec++;c&&c!=k||a.ecf++;b.pageURL=""+(e.location?e.location.href:"");b.logLevel=c;b.attribution=f.attribution||b.attribution;a.erl.push({ex:f,info:b})}}function l(a,b,c,e,g){d.ueLogError({m:a,f:b,l:c,c:""+e,err:g,fromOnError:1,args:arguments},g?{attribution:g.attribution,logLevel:g.logLevel}:void 0);return!1}var k="FATAL",m="ERROR",n="WARN",p="DOWNGRADED",a={ec:0,ecf:0,
+>> pec:0,ts:0,erl:[],ter:[],buffer:[],mxe:50,startTimer:function(){a.ts++;setInterval(function(){d.ue&&a.pec<a.ec&&d.uex("at");a.pec=
+>> PS D:\site\jaimazone\scraper>

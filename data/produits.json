@@ -2,30 +2,162 @@
   "meta": {
     "site": "jaimazone.fr",
     "niche": "Maison & Cuisine",
-    "tag_affiliation": "jaimazone-21",
-    "derniere_maj": "2025-06-17T08:00:00",
-    "total_produits": 12
+    "tag_affiliation": "slyrj2409-21",
+    "derniere_maj": "2026-06-17T21:27:02",
+    "total_produits": 5
   },
   "categories": [
-    {"id":"tout","label":"Tout voir","icon":"⭐"},
-    {"id":"robot-cuisine","label":"Robots Cuisine","icon":"🤖"},
-    {"id":"cafe","label":"Café & Boissons","icon":"☕"},
-    {"id":"entretien","label":"Entretien","icon":"🧹"},
-    {"id":"cuisson","label":"Cuisson","icon":"🍳"},
-    {"id":"rangement","label":"Rangement","icon":"📦"}
+    {
+      "id": "tout",
+      "label": "Tout voir",
+      "icon": "⭐"
+    },
+    {
+      "id": "robot-cuisine",
+      "label": "Robots Cuisine",
+      "icon": "🤖"
+    },
+    {
+      "id": "cafe",
+      "label": "Café & Boissons",
+      "icon": "☕"
+    },
+    {
+      "id": "entretien",
+      "label": "Entretien",
+      "icon": "🧹"
+    },
+    {
+      "id": "cuisson",
+      "label": "Cuisson",
+      "icon": "🍳"
+    },
+    {
+      "id": "rangement",
+      "label": "Rangement",
+      "icon": "📦"
+    }
   ],
   "produits": [
-    {"id":1,"rang":1,"categorie":"robot-cuisine","titre":"Thermomix TM6 – Robot cuiseur connecté","desc":"Le robot cuiseur de référence avec 50+ fonctions, guidage pas à pas et accès à 45 000 recettes. Pèse, hache, cuit, mixe — tout en un seul appareil.","points":["50+ fonctions","45 000 recettes","Nettoyage 2 min","Garantie 2 ans"],"prix":1449.00,"prix_barre":null,"note":4.7,"avis":8432,"badge":"N°1 Ventes","badge_c":"gold","lien":"https://www.amazon.fr/dp/B07VXW5M7N?tag=jaimazone-21","icone":"🤖"},
-    {"id":2,"rang":2,"categorie":"robot-cuisine","titre":"Moulinex Companion XL – Robot cuisine 4,5L","desc":"Alternative solide au Thermomix avec cuve XL 4,5L, 12 programmes automatiques et prix bien plus accessible. Idéal pour les familles nombreuses.","points":["Cuve 4,5L","12 programmes","Vitesse 0-12","Accessoires inclus"],"prix":549.99,"prix_barre":699.99,"note":4.5,"avis":3241,"badge":"-21%","badge_c":"red","lien":"https://www.amazon.fr/dp/B08X2Y?tag=jaimazone-21","icone":"🤖"},
-    {"id":3,"rang":3,"categorie":"cafe","titre":"De'Longhi La Specialista Arte – Expresso","desc":"Café de barista à la maison : broyeur intégré à 8 niveaux, chauffe-lait automatique et pré-infusion pour extraire tous les arômes du grain.","points":["Broyeur 8 niveaux","Pression 15 bars","Chauffe-lait auto","Écran LCD"],"prix":799.00,"prix_barre":949.00,"note":4.6,"avis":2187,"badge":"-16%","badge_c":"red","lien":"https://www.amazon.fr/dp/B09KXY?tag=jaimazone-21","icone":"☕"},
-    {"id":4,"rang":4,"categorie":"entretien","titre":"iRobot Roomba j9+ – Aspirateur robot vidage auto","desc":"Cartographie 3D, évite les obstacles, se vide seul pendant 60 jours et se recharge automatiquement. Le robot aspirateur le plus intelligent du marché.","points":["Vidage auto 60j","Cartographie 3D","Évite obstacles","Alexa/Google"],"prix":899.00,"prix_barre":1099.00,"note":4.4,"avis":5632,"badge":"-18%","badge_c":"red","lien":"https://www.amazon.fr/dp/B0BXY?tag=jaimazone-21","icone":"🧹"},
-    {"id":5,"rang":5,"categorie":"cafe","titre":"Nespresso Vertuo Next – Machine capsules","desc":"Technologie Centrifusion pour un crema parfait, 5 tailles de tasse et 30+ arômes. Chauffe en 30 secondes, silencieuse et compacte.","points":["Centrifusion","5 tailles","Chauffe 30s","Mode éco"],"prix":149.99,"prix_barre":199.99,"note":4.5,"avis":12043,"badge":"Choix populaire","badge_c":"green","lien":"https://www.amazon.fr/dp/B08NXY?tag=jaimazone-21","icone":"☕"},
-    {"id":6,"rang":6,"categorie":"cuisson","titre":"Ninja Foodi MAX – Friteuse à air 9,5L","desc":"La plus grande friteuse à air du marché. Frite sans huile, rôtit, cuit vapeur, déshydrate et réchauffe. Croustillant garanti pour toute la famille.","points":["Capacité 9,5L","Sans huile","6 modes","Facile à nettoyer"],"prix":229.99,"prix_barre":279.99,"note":4.7,"avis":9871,"badge":"Bestseller","badge_c":"gold","lien":"https://www.amazon.fr/dp/B09RXY?tag=jaimazone-21","icone":"🍳"},
-    {"id":7,"rang":7,"categorie":"entretien","titre":"Dyson V15 Detect – Aspirateur balai laser","desc":"Le laser révèle les poussières invisibles, l'écran LCD affiche les particules captées en temps réel. 60 minutes d'autonomie, filtre HEPA intégré.","points":["Laser anti-poussière","Écran LCD","60 min autonomie","Filtre HEPA"],"prix":649.00,"prix_barre":749.00,"note":4.6,"avis":4523,"badge":"-13%","badge_c":"red","lien":"https://www.amazon.fr/dp/B09WXY?tag=jaimazone-21","icone":"🧹"},
-    {"id":8,"rang":8,"categorie":"cuisson","titre":"Instant Pot Duo 7-en-1 – Autocuiseur 5,7L","desc":"7 fonctions en 1 : cocotte, mijoteuse, autocuiseur, riz, vapeur, yaourtière, réchaud. Cuisine jusqu'à 70% plus vite avec 70% d'économie d'énergie.","points":["7 fonctions en 1","70% énergie","14 programmes","70% plus rapide"],"prix":99.99,"prix_barre":139.99,"note":4.7,"avis":28943,"badge":"Coup de ♥","badge_c":"pink","lien":"https://www.amazon.fr/dp/B07XY?tag=jaimazone-21","icone":"🍳"},
-    {"id":9,"rang":9,"categorie":"rangement","titre":"KALLAX 4x4 – Étagère modulable IKEA","desc":"L'étagère modulable la plus polyvalente : 16 compartiments, compatible 100+ inserts. Disponible en 5 coloris, montage simple.","points":["16 compartiments","100+ inserts","Montage simple","5 coloris"],"prix":189.00,"prix_barre":null,"note":4.5,"avis":6782,"badge":"Valeur sûre","badge_c":"blue","lien":"https://www.amazon.fr/dp/B06XY?tag=jaimazone-21","icone":"📦"},
-    {"id":10,"rang":10,"categorie":"robot-cuisine","titre":"KitchenAid Artisan – Robot pâtissier 4,8L","desc":"L'icône de la pâtisserie professionnelle. Moteur 300W, 10 vitesses, bol 4,8L inox et 15+ accessoires optionnels. La référence depuis 80 ans.","points":["Moteur 300W","10 vitesses","15+ accessoires","Garantie 5 ans"],"prix":549.00,"prix_barre":699.00,"note":4.8,"avis":15234,"badge":"Top qualité","badge_c":"gold","lien":"https://www.amazon.fr/dp/B00XY?tag=jaimazone-21","icone":"🤖"},
-    {"id":11,"rang":11,"categorie":"cafe","titre":"Sage Barista Express – Expresso grains","desc":"Broyeur conique intégré, température PID précise, pression manuelle réglable. Un vrai expresso de café en grains en moins de 3 minutes à la maison.","points":["Broyeur conique","Température PID","Pression manuelle","Résultats barista"],"prix":699.95,"prix_barre":799.95,"note":4.6,"avis":7234,"badge":"-13%","badge_c":"red","lien":"https://www.amazon.fr/dp/B08XY?tag=jaimazone-21","icone":"☕"},
-    {"id":12,"rang":12,"categorie":"entretien","titre":"Kärcher K5 Premium – Nettoyeur haute pression","desc":"145 bars de pression, débit 500 L/h, tuyau 10m et technologie Water Cooled pour une utilisation prolongée sans surchauffe. La référence du nettoyage.","points":["145 bars","Débit 500L/h","Tuyau 10m","Water Cooled"],"prix":349.99,"prix_barre":429.99,"note":4.5,"avis":11234,"badge":"-19%","badge_c":"red","lien":"https://www.amazon.fr/dp/B09XY?tag=jaimazone-21","icone":"🧹"}
+    {
+      "id": 1,
+      "rang": 1,
+      "categorie": "robot-cuisine",
+      "titre": "Jsdoin Ventilateur portable rechargeable par USB avec 5 vitesses,mini ventilateur de bureau pliable avec écran LED pour la ma",
+      "desc": "Le ventilateur portable Jsdoin est votre allié contre la chaleur au bureau ou à la maison. Avec ses 5 vitesses réglables et son écran LED pratique, profitez d'une brise personnalisée en un clic. Léger et pliable, il se glisse dans un sac pour un transport facile.",
+      "points": [
+        "5 vitesses réglables",
+        "Rechargeable par USB",
+        "Mini et pliable",
+        "Écran LED indicateur"
+      ],
+      "prix": 16.99,
+      "prix_barre": null,
+      "note": 4.5,
+      "avis": 14402,
+      "badge": "N°1 Ventes",
+      "badge_c": "gold",
+      "lien": "https://www.amazon.fr/dp/B0BRV61DPY?tag=slyrj2409-21",
+      "icone": "🤖",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71LTHwczIqL._AC_UL300_SR300,200_.jpg",
+      "asin": "B0BRV61DPY",
+      "date_maj": "2026-06-17T21:26:50"
+    },
+    {
+      "id": 2,
+      "rang": 2,
+      "categorie": "robot-cuisine",
+      "titre": "HOOMEE 400CM Tissu De Calfeutrage pour Fenêtres pour Climatiseur Mobile et Sèche-Linge - Fonctionne avec Toutes Les Unités de",
+      "desc": "Gardez votre maison au frais sans gaspiller d'énergie ! Le joint HOOMEE 400cm s'installe en 2 minutes sur votre fenêtre pour climatiseur ou sèche-linge, bloquant l'air chaud et les insectes. Plus de courants d'air, plus de factures salées. Idéal pour un été sans stress et une cuisine toujours propre.",
+      "points": [
+        "Longueur 400 cm (adaptable)",
+        "Étanchéité optimale contre l'air et la poussière",
+        "Installation rapide sans outil",
+        "Compatibilité universelle avec tous les appareils"
+      ],
+      "prix": 24.99,
+      "prix_barre": null,
+      "note": 4.0,
+      "avis": 31828,
+      "badge": "Choix populaire",
+      "badge_c": "green",
+      "lien": "https://www.amazon.fr/dp/B07BPZGJ3B?tag=slyrj2409-21",
+      "icone": "🤖",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/614IJG4EIcL._AC_UL300_SR300,200_.jpg",
+      "asin": "B07BPZGJ3B",
+      "date_maj": "2026-06-17T21:26:53"
+    },
+    {
+      "id": 3,
+      "rang": 3,
+      "categorie": "robot-cuisine",
+      "titre": "Rowenta Turbo Silence Ventilateur sur Pied, 35 dB(A), Rafraîchissement Puissant jusqu’à 7,2 m, 12 Vitesses, Oscillation 120°,",
+      "desc": "Décuplez votre confort avec le Rowenta Turbo Silence, le ventilateur sur pied ultra-silencieux à seulement 35 dB(A). Profitez d'un rafraîchissement puissant jusqu'à 7,2 m et de 12 vitesses pour un flux d'air parfaitement adapté à vos besoins, même en pleine nuit.",
+      "points": [
+        "12 vitesses réglables",
+        "Oscillation à 120°",
+        "Niveau sonore ultra-bas (35 dB)",
+        "Rayon d'action jusqu'à 7,2 m"
+      ],
+      "prix": 99.99,
+      "prix_barre": null,
+      "note": 4.6,
+      "avis": 4693,
+      "badge": "Bestseller",
+      "badge_c": "gold",
+      "lien": "https://www.amazon.fr/dp/B0CS3NX4QG?tag=slyrj2409-21",
+      "icone": "🤖",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71V9m6Rha-L._AC_UL300_SR300,200_.jpg",
+      "asin": "B0CS3NX4QG",
+      "date_maj": "2026-06-17T21:26:56"
+    },
+    {
+      "id": 4,
+      "rang": 4,
+      "categorie": "robot-cuisine",
+      "titre": "De'Longhi EcoDecalk Détartrant DLSC500, 5 Doses de Décalcification, Accessoire de Maintenance pour Machine à Café, Ingrédient",
+      "desc": "Détartrez votre machine à café en un tour de main avec le De'Longhi EcoDecalk ! 5 doses puissantes éliminent le calcaire pour des cafés toujours savoureux. Protégez votre appareil et prolongez sa durée de vie grâce à ce produit spécialement conçu pour les machines De'Longhi.",
+      "points": [
+        "5 doses prêtes à l'emploi",
+        "Compatibilité avec toutes les machines De'Longhi",
+        "Élimine efficacement le calcaire et les dépôts",
+        "Produit écologique et sans danger pour la santé"
+      ],
+      "prix": 8.69,
+      "prix_barre": null,
+      "note": 4.7,
+      "avis": 143443,
+      "badge": "Choix populaire",
+      "badge_c": "green",
+      "lien": "https://www.amazon.fr/dp/B008YETL18?tag=slyrj2409-21",
+      "icone": "🤖",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/7135FCZclcL._AC_UL300_SR300,200_.jpg",
+      "asin": "B008YETL18",
+      "date_maj": "2026-06-17T21:26:59"
+    },
+    {
+      "id": 5,
+      "rang": 5,
+      "categorie": "robot-cuisine",
+      "titre": "COMFEE' Climatiseur Mobile 9000 BTU/h 2,6kW, Contrôle APP, 3 Modes, 3 Vitesses de ventilation, Dimensions compactes, Pour piè",
+      "desc": "Rafraîchissez votre intérieur en un clin d'œil avec le COMFEE' Climatiseur Mobile 9000 BTU/h. Idéal pour les pièces jusqu'à 35m², il offre 3 modes et 3 vitesses pour un confort personnalisé. Compact et facile à déplacer, il s'adapte à tous vos espaces sans encombrer.",
+      "points": [
+        "9000 BTU/h (2,6 kW) pour pièces jusqu'à 35m²",
+        "Contrôle via APP pour une gestion à distance",
+        "3 modes (froid, ventilateur, déshumidification) et 3 vitesses de ventilation",
+        "Design compact et roulettes pour un déplacement facile"
+      ],
+      "prix": 285.99,
+      "prix_barre": null,
+      "note": 3.9,
+      "avis": 926,
+      "badge": "Coup de ♥",
+      "badge_c": "pink",
+      "lien": "https://www.amazon.fr/dp/B0CM8RNDHY?tag=slyrj2409-21",
+      "icone": "🤖",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/7173jTIuqwL._AC_UL300_SR300,200_.jpg",
+      "asin": "B0CM8RNDHY",
+      "date_maj": "2026-06-17T21:27:02"
+    }
   ]
 }
