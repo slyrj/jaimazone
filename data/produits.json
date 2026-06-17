@@ -3,137 +3,29 @@
     "site": "jaimazone.fr",
     "niche": "Maison & Cuisine",
     "tag_affiliation": "jaimazone-21",
-    "derniere_maj": "2024-01-15T08:00:00",
-    "total_produits": 50
+    "derniere_maj": "2025-06-17T08:00:00",
+    "total_produits": 12
   },
   "categories": [
-    { "id": "tout", "label": "Tout voir", "icon": "⭐" },
-    { "id": "robot-cuisine", "label": "Robots Cuisine", "icon": "🤖" },
-    { "id": "cafe", "label": "Café & Boissons", "icon": "☕" },
-    { "id": "entretien", "label": "Entretien", "icon": "🧹" },
-    { "id": "cuisson", "label": "Cuisson", "icon": "🍳" },
-    { "id": "rangement", "label": "Rangement", "icon": "📦" }
+    {"id":"tout","label":"Tout voir","icon":"⭐"},
+    {"id":"robot-cuisine","label":"Robots Cuisine","icon":"🤖"},
+    {"id":"cafe","label":"Café & Boissons","icon":"☕"},
+    {"id":"entretien","label":"Entretien","icon":"🧹"},
+    {"id":"cuisson","label":"Cuisson","icon":"🍳"},
+    {"id":"rangement","label":"Rangement","icon":"📦"}
   ],
   "produits": [
-    {
-      "id": 1, "rang": 1, "categorie": "robot-cuisine",
-      "titre": "Thermomix TM6 – Robot cuiseur connecté",
-      "description_courte": "Le robot cuiseur de référence avec 50+ fonctions, guidage pas à pas et accès à 45 000 recettes en ligne. Pèse, hache, cuit, mixe — tout en un.",
-      "points_forts": ["50+ fonctions automatiques", "45 000 recettes incluses", "Nettoyage en 2 minutes", "Garantie 2 ans"],
-      "prix": 1449.00, "prix_barre": null, "note": 4.7, "nb_avis": 8432,
-      "badge": "N°1 Ventes", "badge_couleur": "gold",
-      "lien_amazon": "https://www.amazon.fr/dp/B07VXW5M7N?tag=jaimazone-21",
-      "image_placeholder": "robot-cuisine"
-    },
-    {
-      "id": 2, "rang": 2, "categorie": "robot-cuisine",
-      "titre": "Moulinex Companion XL – Robot de cuisine 4,5L",
-      "description_courte": "Alternative française au Thermomix avec cuve XL 4,5L, 12 programmes automatiques et prix bien plus accessible. Idéal pour les familles nombreuses.",
-      "points_forts": ["Cuve 4,5L pour 8 personnes", "12 programmes auto", "Vitesse 0 à 12", "Accessoires inclus"],
-      "prix": 549.99, "prix_barre": 699.99, "note": 4.5, "nb_avis": 3241,
-      "badge": "-21%", "badge_couleur": "red",
-      "lien_amazon": "https://www.amazon.fr/dp/B08X2YZ1234?tag=jaimazone-21",
-      "image_placeholder": "robot-cuisine"
-    },
-    {
-      "id": 3, "rang": 3, "categorie": "cafe",
-      "titre": "De'Longhi La Specialista Arte – Machine expresso",
-      "description_courte": "Café de barista à la maison avec broyeur intégré à 8 niveaux, chauffe-lait automatique et technologie de pré-infusion pour extraire tous les arômes.",
-      "points_forts": ["Broyeur intégré 8 niveaux", "Pression 15 bars", "Chauffe-lait auto", "Écran LCD"],
-      "prix": 799.00, "prix_barre": 949.00, "note": 4.6, "nb_avis": 2187,
-      "badge": "-16%", "badge_couleur": "red",
-      "lien_amazon": "https://www.amazon.fr/dp/B09KXYZ5678?tag=jaimazone-21",
-      "image_placeholder": "cafe"
-    },
-    {
-      "id": 4, "rang": 4, "categorie": "entretien",
-      "titre": "Roomba j9+ – Robot aspirateur avec vidage auto",
-      "description_courte": "Le robot aspirateur le plus intelligent du marché : cartographie 3D, évite les obstacles, se vide tout seul pendant 60 jours et se recharge automatiquement.",
-      "points_forts": ["Vidage auto 60 jours", "Cartographie 3D", "Évite les obstacles", "Compatible Alexa/Google"],
-      "prix": 899.00, "prix_barre": 1099.00, "note": 4.4, "nb_avis": 5632,
-      "badge": "-18%", "badge_couleur": "red",
-      "lien_amazon": "https://www.amazon.fr/dp/B0BXYZ9876?tag=jaimazone-21",
-      "image_placeholder": "entretien"
-    },
-    {
-      "id": 5, "rang": 5, "categorie": "cafe",
-      "titre": "Nespresso Vertuo Next – Machine à café à capsules",
-      "description_courte": "La nouvelle génération Nespresso avec technologie Centrifusion pour un crema parfait, 5 tailles de tasse et plus de 30 arômes disponibles. Compacte et silencieuse.",
-      "points_forts": ["Technologie Centrifusion", "5 tailles de tasse", "Chauffe en 30s", "Mode éco intégré"],
-      "prix": 149.99, "prix_barre": 199.99, "note": 4.5, "nb_avis": 12043,
-      "badge": "Choix populaire", "badge_couleur": "green",
-      "lien_amazon": "https://www.amazon.fr/dp/B08NXYZ1234?tag=jaimazone-21",
-      "image_placeholder": "cafe"
-    },
-    {
-      "id": 6, "rang": 6, "categorie": "cuisson",
-      "titre": "Ninja Foodi MAX – Friteuse à air 9,5L",
-      "description_courte": "La plus grande friteuse à air du marché pour toute la famille. Frite sans huile, rôtit, cuit à la vapeur, déshydrate et réchauffe. Résultat croustillant garanti.",
-      "points_forts": ["Capacité 9,5L", "Sans huile", "6 modes de cuisson", "Facile à nettoyer"],
-      "prix": 229.99, "prix_barre": 279.99, "note": 4.7, "nb_avis": 9871,
-      "badge": "Bestseller", "badge_couleur": "gold",
-      "lien_amazon": "https://www.amazon.fr/dp/B09RXYZ5432?tag=jaimazone-21",
-      "image_placeholder": "cuisson"
-    },
-    {
-      "id": 7, "rang": 7, "categorie": "entretien",
-      "titre": "Dyson V15 Detect – Aspirateur balai laser",
-      "description_courte": "L'aspirateur balai le plus puissant avec laser qui révèle les poussières invisibles, écran LCD qui affiche les particules captées en temps réel. Autonomie 60 minutes.",
-      "points_forts": ["Laser anti-poussière", "Écran LCD particules", "60 min d'autonomie", "Filtre HEPA"],
-      "prix": 649.00, "prix_barre": 749.00, "note": 4.6, "nb_avis": 4523,
-      "badge": "-13%", "badge_couleur": "red",
-      "lien_amazon": "https://www.amazon.fr/dp/B09WXYZ8765?tag=jaimazone-21",
-      "image_placeholder": "entretien"
-    },
-    {
-      "id": 8, "rang": 8, "categorie": "cuisson",
-      "titre": "Instant Pot Duo 7-en-1 – Autocuiseur électrique 5,7L",
-      "description_courte": "L'autocuiseur électrique qui a révolutionné la cuisine : 7 fonctions en 1 (cocotte, mijoteuse, autocuiseur, cuiseur à riz, vapeur, yaourtière, réchaud). Économise 70% d'énergie.",
-      "points_forts": ["7 fonctions en 1", "Économie 70% énergie", "14 programmes", "Cuisson jusqu'à 70% plus rapide"],
-      "prix": 99.99, "prix_barre": 139.99, "note": 4.7, "nb_avis": 28943,
-      "badge": "Coup de ♥", "badge_couleur": "pink",
-      "lien_amazon": "https://www.amazon.fr/dp/B07XYZ2345?tag=jaimazone-21",
-      "image_placeholder": "cuisson"
-    },
-    {
-      "id": 9, "rang": 9, "categorie": "rangement",
-      "titre": "IKEA KALLAX 4x4 – Étagère modulable avec inserts",
-      "description_courte": "L'étagère modulable la plus polyvalente du marché, compatible avec des dizaines d'inserts (tiroirs, portes, paniers). Idéale pour salon, bureau ou chambre.",
-      "points_forts": ["16 compartiments", "Compatible 100+ inserts", "Montage simple", "5 coloris"],
-      "prix": 189.00, "prix_barre": null, "note": 4.5, "nb_avis": 6782,
-      "badge": "Valeur sûre", "badge_couleur": "blue",
-      "lien_amazon": "https://www.amazon.fr/dp/B06XYZ7890?tag=jaimazone-21",
-      "image_placeholder": "rangement"
-    },
-    {
-      "id": 10, "rang": 10, "categorie": "robot-cuisine",
-      "titre": "KitchenAid Artisan – Robot pâtissier 4,8L",
-      "description_courte": "L'icône de la pâtisserie professionnelle enfin accessible. Moteur 300W, 10 vitesses, bol 4,8L en acier inox et plus de 15 accessoires optionnels disponibles.",
-      "points_forts": ["Moteur 300W", "10 vitesses", "15+ accessoires", "Garantie 5 ans"],
-      "prix": 549.00, "prix_barre": 699.00, "note": 4.8, "nb_avis": 15234,
-      "badge": "Top qualité", "badge_couleur": "gold",
-      "lien_amazon": "https://www.amazon.fr/dp/B00XYZ3456?tag=jaimazone-21",
-      "image_placeholder": "robot-cuisine"
-    },
-    {
-      "id": 11, "rang": 11, "categorie": "cafe",
-      "titre": "Sage Barista Express – Machine expresso grains",
-      "description_courte": "La machine préférée des amateurs de café sérieux. Broyeur intégré conique, pression manuelle réglable, température PID précise. Un vrai expresso de café en moins de 3 minutes.",
-      "points_forts": ["Broyeur conique intégré", "Température PID", "Pression manuelle", "Résultats barista"],
-      "prix": 699.95, "prix_barre": 799.95, "note": 4.6, "nb_avis": 7234,
-      "badge": "-13%", "badge_couleur": "red",
-      "lien_amazon": "https://www.amazon.fr/dp/B08XYZ4567?tag=jaimazone-21",
-      "image_placeholder": "cafe"
-    },
-    {
-      "id": 12, "rang": 12, "categorie": "entretien",
-      "titre": "Kärcher K5 Premium – Nettoyeur haute pression",
-      "description_courte": "Le nettoyeur haute pression de référence avec 145 bars de pression, débit 500 L/h, tuyau 10m et technologie Water Cooled pour une utilisation prolongée sans surchauffe.",
-      "points_forts": ["145 bars de pression", "Débit 500L/h", "Tuyau 10m", "Moteur Water Cooled"],
-      "prix": 349.99, "prix_barre": 429.99, "note": 4.5, "nb_avis": 11234,
-      "badge": "-19%", "badge_couleur": "red",
-      "lien_amazon": "https://www.amazon.fr/dp/B09XYZ5678?tag=jaimazone-21",
-      "image_placeholder": "entretien"
-    }
+    {"id":1,"rang":1,"categorie":"robot-cuisine","titre":"Thermomix TM6 – Robot cuiseur connecté","desc":"Le robot cuiseur de référence avec 50+ fonctions, guidage pas à pas et accès à 45 000 recettes. Pèse, hache, cuit, mixe — tout en un seul appareil.","points":["50+ fonctions","45 000 recettes","Nettoyage 2 min","Garantie 2 ans"],"prix":1449.00,"prix_barre":null,"note":4.7,"avis":8432,"badge":"N°1 Ventes","badge_c":"gold","lien":"https://www.amazon.fr/dp/B07VXW5M7N?tag=jaimazone-21","icone":"🤖"},
+    {"id":2,"rang":2,"categorie":"robot-cuisine","titre":"Moulinex Companion XL – Robot cuisine 4,5L","desc":"Alternative solide au Thermomix avec cuve XL 4,5L, 12 programmes automatiques et prix bien plus accessible. Idéal pour les familles nombreuses.","points":["Cuve 4,5L","12 programmes","Vitesse 0-12","Accessoires inclus"],"prix":549.99,"prix_barre":699.99,"note":4.5,"avis":3241,"badge":"-21%","badge_c":"red","lien":"https://www.amazon.fr/dp/B08X2Y?tag=jaimazone-21","icone":"🤖"},
+    {"id":3,"rang":3,"categorie":"cafe","titre":"De'Longhi La Specialista Arte – Expresso","desc":"Café de barista à la maison : broyeur intégré à 8 niveaux, chauffe-lait automatique et pré-infusion pour extraire tous les arômes du grain.","points":["Broyeur 8 niveaux","Pression 15 bars","Chauffe-lait auto","Écran LCD"],"prix":799.00,"prix_barre":949.00,"note":4.6,"avis":2187,"badge":"-16%","badge_c":"red","lien":"https://www.amazon.fr/dp/B09KXY?tag=jaimazone-21","icone":"☕"},
+    {"id":4,"rang":4,"categorie":"entretien","titre":"iRobot Roomba j9+ – Aspirateur robot vidage auto","desc":"Cartographie 3D, évite les obstacles, se vide seul pendant 60 jours et se recharge automatiquement. Le robot aspirateur le plus intelligent du marché.","points":["Vidage auto 60j","Cartographie 3D","Évite obstacles","Alexa/Google"],"prix":899.00,"prix_barre":1099.00,"note":4.4,"avis":5632,"badge":"-18%","badge_c":"red","lien":"https://www.amazon.fr/dp/B0BXY?tag=jaimazone-21","icone":"🧹"},
+    {"id":5,"rang":5,"categorie":"cafe","titre":"Nespresso Vertuo Next – Machine capsules","desc":"Technologie Centrifusion pour un crema parfait, 5 tailles de tasse et 30+ arômes. Chauffe en 30 secondes, silencieuse et compacte.","points":["Centrifusion","5 tailles","Chauffe 30s","Mode éco"],"prix":149.99,"prix_barre":199.99,"note":4.5,"avis":12043,"badge":"Choix populaire","badge_c":"green","lien":"https://www.amazon.fr/dp/B08NXY?tag=jaimazone-21","icone":"☕"},
+    {"id":6,"rang":6,"categorie":"cuisson","titre":"Ninja Foodi MAX – Friteuse à air 9,5L","desc":"La plus grande friteuse à air du marché. Frite sans huile, rôtit, cuit vapeur, déshydrate et réchauffe. Croustillant garanti pour toute la famille.","points":["Capacité 9,5L","Sans huile","6 modes","Facile à nettoyer"],"prix":229.99,"prix_barre":279.99,"note":4.7,"avis":9871,"badge":"Bestseller","badge_c":"gold","lien":"https://www.amazon.fr/dp/B09RXY?tag=jaimazone-21","icone":"🍳"},
+    {"id":7,"rang":7,"categorie":"entretien","titre":"Dyson V15 Detect – Aspirateur balai laser","desc":"Le laser révèle les poussières invisibles, l'écran LCD affiche les particules captées en temps réel. 60 minutes d'autonomie, filtre HEPA intégré.","points":["Laser anti-poussière","Écran LCD","60 min autonomie","Filtre HEPA"],"prix":649.00,"prix_barre":749.00,"note":4.6,"avis":4523,"badge":"-13%","badge_c":"red","lien":"https://www.amazon.fr/dp/B09WXY?tag=jaimazone-21","icone":"🧹"},
+    {"id":8,"rang":8,"categorie":"cuisson","titre":"Instant Pot Duo 7-en-1 – Autocuiseur 5,7L","desc":"7 fonctions en 1 : cocotte, mijoteuse, autocuiseur, riz, vapeur, yaourtière, réchaud. Cuisine jusqu'à 70% plus vite avec 70% d'économie d'énergie.","points":["7 fonctions en 1","70% énergie","14 programmes","70% plus rapide"],"prix":99.99,"prix_barre":139.99,"note":4.7,"avis":28943,"badge":"Coup de ♥","badge_c":"pink","lien":"https://www.amazon.fr/dp/B07XY?tag=jaimazone-21","icone":"🍳"},
+    {"id":9,"rang":9,"categorie":"rangement","titre":"KALLAX 4x4 – Étagère modulable IKEA","desc":"L'étagère modulable la plus polyvalente : 16 compartiments, compatible 100+ inserts. Disponible en 5 coloris, montage simple.","points":["16 compartiments","100+ inserts","Montage simple","5 coloris"],"prix":189.00,"prix_barre":null,"note":4.5,"avis":6782,"badge":"Valeur sûre","badge_c":"blue","lien":"https://www.amazon.fr/dp/B06XY?tag=jaimazone-21","icone":"📦"},
+    {"id":10,"rang":10,"categorie":"robot-cuisine","titre":"KitchenAid Artisan – Robot pâtissier 4,8L","desc":"L'icône de la pâtisserie professionnelle. Moteur 300W, 10 vitesses, bol 4,8L inox et 15+ accessoires optionnels. La référence depuis 80 ans.","points":["Moteur 300W","10 vitesses","15+ accessoires","Garantie 5 ans"],"prix":549.00,"prix_barre":699.00,"note":4.8,"avis":15234,"badge":"Top qualité","badge_c":"gold","lien":"https://www.amazon.fr/dp/B00XY?tag=jaimazone-21","icone":"🤖"},
+    {"id":11,"rang":11,"categorie":"cafe","titre":"Sage Barista Express – Expresso grains","desc":"Broyeur conique intégré, température PID précise, pression manuelle réglable. Un vrai expresso de café en grains en moins de 3 minutes à la maison.","points":["Broyeur conique","Température PID","Pression manuelle","Résultats barista"],"prix":699.95,"prix_barre":799.95,"note":4.6,"avis":7234,"badge":"-13%","badge_c":"red","lien":"https://www.amazon.fr/dp/B08XY?tag=jaimazone-21","icone":"☕"},
+    {"id":12,"rang":12,"categorie":"entretien","titre":"Kärcher K5 Premium – Nettoyeur haute pression","desc":"145 bars de pression, débit 500 L/h, tuyau 10m et technologie Water Cooled pour une utilisation prolongée sans surchauffe. La référence du nettoyage.","points":["145 bars","Débit 500L/h","Tuyau 10m","Water Cooled"],"prix":349.99,"prix_barre":429.99,"note":4.5,"avis":11234,"badge":"-19%","badge_c":"red","lien":"https://www.amazon.fr/dp/B09XY?tag=jaimazone-21","icone":"🧹"}
   ]
 }

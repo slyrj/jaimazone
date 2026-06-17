@@ -6,140 +6,12 @@
 <meta name="description" content="Les 50 meilleurs produits Maison & Cuisine Amazon, sélectionnés et mis à jour quotidiennement. Robots cuiseurs, machines à café, aspirateurs — les vraies meilleures ventes.">
 <meta name="robots" content="index, follow">
 <title>JaiMaZone – Top 50 Maison & Cuisine | Meilleures ventes Amazon FR</title>
+<link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/variables.css">
 <link rel="stylesheet" href="./css/utils.css">
-<style>
-:root {
-  --black:#0A0A0A;--dark:#141414;--card:#1C1C1C;--border:#2A2A2A;
-  --orange:#FF9500;--orange-dk:#CC7700;--orange-lt:#FFB84D;
-  --cream:#F5F4F0;--grey-lt:#9A9A9A;--grey-md:#6A6A6A;
-  --green:#22C55E;--red:#EF4444;--blue:#3B82F6;--pink:#EC4899;--gold:#F59E0B;--white:#FFFFFF;
-  --font-display:'Syne',sans-serif;--font-body:'Inter',sans-serif;
-  --r-sm:8px;--r-md:14px;--r-lg:20px;--r-xl:28px;
-  --shadow-hover:0 12px 48px rgba(255,149,0,.18);
-  --transition:.25s cubic-bezier(.4,0,.2,1);
-}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:var(--font-body);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;}
-a{color:inherit;text-decoration:none;}
-button{cursor:pointer;border:none;background:none;font-family:inherit;}
-
-/* NAV */
-.nav{position:sticky;top:0;z-index:100;background:rgba(10,10,10,.88);backdrop-filter:blur(18px) saturate(1.4);border-bottom:1px solid var(--border);padding:0 clamp(16px,4vw,48px);height:64px;display:flex;align-items:center;gap:24px;}
-.nav-logo{font-family:var(--font-display);font-size:22px;font-weight:800;letter-spacing:-.5px;white-space:nowrap;}
-.nav-logo span{color:var(--orange);}
-.nav-search{flex:1;max-width:480px;position:relative;}
-.nav-search input{width:100%;background:var(--card);border:1.5px solid var(--border);border-radius:50px;padding:9px 20px 9px 44px;color:var(--cream);font-family:var(--font-body);font-size:14px;outline:none;transition:border-color var(--transition);}
-.nav-search input::placeholder{color:var(--grey-md);}
-.nav-search input:focus{border-color:var(--orange);}
-.nav-search-icon{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:var(--grey-md);pointer-events:none;}
-.nav-meta{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:12px;color:var(--grey-lt);white-space:nowrap;}
-.nav-dot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 2s infinite;}
-@keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
-
-/* HERO */
-.hero{padding:clamp(48px,8vw,96px) clamp(16px,4vw,48px) clamp(40px,6vw,72px);display:grid;grid-template-columns:1fr auto;gap:32px;align-items:end;border-bottom:1px solid var(--border);position:relative;overflow:hidden;}
-.hero::before{content:'';position:absolute;top:-120px;right:-80px;width:560px;height:560px;background:radial-gradient(circle,rgba(255,149,0,.12) 0%,transparent 65%);pointer-events:none;}
-.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(255,149,0,.12);border:1px solid rgba(255,149,0,.3);color:var(--orange);font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:6px 14px;border-radius:50px;margin-bottom:20px;}
-.hero-title{font-family:var(--font-display);font-size:clamp(32px,5.5vw,68px);font-weight:800;line-height:1.05;letter-spacing:-1.5px;margin-bottom:18px;}
-.hero-title em{font-style:normal;color:var(--orange);}
-.hero-subtitle{color:var(--grey-lt);font-size:16px;max-width:520px;line-height:1.7;}
-.hero-stats{display:flex;flex-direction:column;gap:16px;padding:24px;background:var(--card);border:1px solid var(--border);border-radius:var(--r-xl);min-width:200px;text-align:right;}
-.hero-stat-num{font-family:var(--font-display);font-size:36px;font-weight:800;color:var(--orange);line-height:1;}
-.hero-stat-label{font-size:12px;color:var(--grey-lt);margin-top:2px;}
-.hero-stat-divider{height:1px;background:var(--border);}
-
-/* FILTRES */
-.filters-wrap{padding:20px clamp(16px,4vw,48px);border-bottom:1px solid var(--border);position:sticky;top:64px;z-index:90;background:rgba(10,10,10,.92);backdrop-filter:blur(16px);}
-.filters{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;padding-bottom:2px;}
-.filters::-webkit-scrollbar{display:none;}
-.filter-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 18px;border-radius:50px;font-size:13px;font-weight:500;white-space:nowrap;transition:all var(--transition);border:1.5px solid var(--border);color:var(--grey-lt);background:var(--card);}
-.filter-btn:hover{border-color:var(--orange);color:var(--orange);}
-.filter-btn.active{background:var(--orange);border-color:var(--orange);color:var(--black);font-weight:600;}
-
-/* RESULTS BAR */
-.results-bar{padding:16px clamp(16px,4vw,48px);display:flex;align-items:center;justify-content:space-between;gap:12px;}
-.results-count{font-size:13px;color:var(--grey-lt);}
-.results-count strong{color:var(--cream);}
-.sort-select{background:var(--card);border:1.5px solid var(--border);color:var(--cream);padding:7px 14px;border-radius:var(--r-sm);font-family:var(--font-body);font-size:13px;outline:none;cursor:pointer;}
-
-/* GRILLE */
-.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;padding:8px clamp(16px,4vw,48px) clamp(40px,6vw,80px);}
-
-/* CARTE */
-.product-card{background:var(--card);border:1.5px solid var(--border);border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column;transition:transform var(--transition),box-shadow var(--transition),border-color var(--transition);position:relative;animation:fadeUp .45s ease both;}
-.product-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-hover);border-color:rgba(255,149,0,.35);}
-@keyframes fadeUp{from{opacity:0;transform:translateY(22px);}to{opacity:1;transform:translateY(0);}}
-.card-rank{position:absolute;top:12px;left:12px;width:32px;height:32px;border-radius:50%;background:rgba(10,10,10,.85);border:1.5px solid var(--border);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:12px;font-weight:700;color:var(--grey-lt);z-index:2;}
-.card-rank.top3{background:var(--orange);border-color:var(--orange);color:var(--black);}
-.card-badge{position:absolute;top:12px;right:12px;padding:4px 10px;border-radius:50px;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;z-index:2;}
-.badge-gold{background:var(--gold);color:#000;}
-.badge-red{background:var(--red);color:#fff;}
-.badge-green{background:var(--green);color:#fff;}
-.badge-blue{background:var(--blue);color:#fff;}
-.badge-pink{background:var(--pink);color:#fff;}
-.card-image{height:190px;display:flex;align-items:center;justify-content:center;background:#191919;border-bottom:1px solid var(--border);font-size:72px;position:relative;overflow:hidden;}
-.card-image::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,transparent 60%,rgba(28,28,28,.6));}
-.card-body{padding:18px;flex:1;display:flex;flex-direction:column;gap:10px;}
-.card-category{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);}
-.card-title{font-family:var(--font-display);font-size:15px;font-weight:700;line-height:1.35;color:var(--cream);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
-.card-desc{font-size:13px;color:var(--grey-lt);line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
-.card-points{display:flex;flex-wrap:wrap;gap:5px;margin-top:2px;}
-.card-point{font-size:11px;padding:3px 9px;background:rgba(255,149,0,.08);border:1px solid rgba(255,149,0,.2);border-radius:50px;color:var(--orange-lt);}
-.card-rating{display:flex;align-items:center;gap:8px;}
-.stars{display:flex;gap:2px;color:var(--gold);font-size:13px;letter-spacing:1px;}
-.rating-num{font-size:13px;font-weight:600;color:var(--cream);}
-.rating-count{font-size:12px;color:var(--grey-md);}
-.card-footer{padding:14px 18px 18px;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:12px;}
-.card-price{display:flex;flex-direction:column;gap:2px;}
-.price-current{font-family:var(--font-display);font-size:22px;font-weight:800;color:var(--orange);line-height:1;}
-.price-old{font-size:12px;color:var(--grey-md);text-decoration:line-through;}
-.btn-amazon{display:inline-flex;align-items:center;gap:8px;background:var(--orange);color:var(--black);font-weight:700;font-size:13px;padding:10px 18px;border-radius:var(--r-sm);transition:all var(--transition);white-space:nowrap;}
-.btn-amazon:hover{background:var(--orange-lt);transform:scale(1.04);}
-
-/* EMPTY */
-.empty-state{grid-column:1/-1;text-align:center;padding:80px 24px;color:var(--grey-md);}
-.empty-state .icon{font-size:48px;margin-bottom:16px;}
-.empty-state h3{font-family:var(--font-display);font-size:20px;color:var(--cream);margin-bottom:8px;}
-
-/* AFFIL BANNER */
-.affil-banner{margin:0 clamp(16px,4vw,48px) 32px;padding:14px 20px;background:rgba(255,149,0,.06);border:1px solid rgba(255,149,0,.2);border-radius:var(--r-md);display:flex;align-items:center;gap:12px;font-size:13px;color:var(--grey-lt);}
-.affil-banner strong{color:var(--cream);}
-
-/* FOOTER */
-.footer{border-top:1px solid var(--border);padding:clamp(32px,5vw,56px) clamp(16px,4vw,48px);display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px;}
-.footer-brand p{font-size:13px;color:var(--grey-md);line-height:1.7;margin-top:12px;}
-.footer-col h4{font-family:var(--font-display);font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--grey-lt);margin-bottom:14px;}
-.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:8px;}
-.footer-col ul li a{font-size:13px;color:var(--grey-md);transition:color var(--transition);}
-.footer-col ul li a:hover{color:var(--orange);}
-.footer-bottom{border-top:1px solid var(--border);padding:20px clamp(16px,4vw,48px);display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:12px;color:var(--grey-md);flex-wrap:wrap;}
-.footer-bottom a{color:var(--grey-md);transition:color var(--transition);}
-.footer-bottom a:hover{color:var(--orange);}
-
-/* SCROLL TOP */
-.scroll-top{position:fixed;bottom:24px;right:24px;width:44px;height:44px;background:var(--orange);color:var(--black);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;box-shadow:0 4px 16px rgba(255,149,0,.4);opacity:0;transform:translateY(16px);transition:all var(--transition);pointer-events:none;z-index:200;}
-.scroll-top.visible{opacity:1;transform:translateY(0);pointer-events:all;}
-.scroll-top:hover{background:var(--orange-lt);}
-
-/* RESPONSIVE */
-@media(max-width:900px){
-  .hero{grid-template-columns:1fr;}
-  .hero-stats{flex-direction:row;min-width:unset;text-align:left;align-items:center;}
-  .hero-stat-divider{width:1px;height:40px;}
-  .footer{grid-template-columns:1fr 1fr;}
-  .footer-brand{grid-column:1/-1;}
-}
-@media(max-width:600px){
-  .nav-meta{display:none;}
-  .products-grid{grid-template-columns:1fr;}
-  .footer{grid-template-columns:1fr;}
-  .footer-bottom{flex-direction:column;text-align:center;}
-}
-</style>
+<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
@@ -192,7 +64,12 @@ button{cursor:pointer;border:none;background:none;font-family:inherit;}
   </select>
 </div>
 
-<main class="products-grid" id="productsGrid"></main>
+<main class="products-grid" id="productsGrid">
+  <div class="loading-state">
+    <div class="spinner"></div>
+    <p>Chargement des produits…</p>
+  </div>
+</main>
 
 <div class="affil-banner">
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;color:var(--orange)"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
@@ -206,13 +83,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit;}
   </div>
   <div class="footer-col">
     <h4>Catégories</h4>
-    <ul>
-      <li><a href="#" onclick="setFilter('robot-cuisine');return false;">Robots de cuisine</a></li>
-      <li><a href="#" onclick="setFilter('cafe');return false;">Café &amp; Boissons</a></li>
-      <li><a href="#" onclick="setFilter('entretien');return false;">Entretien maison</a></li>
-      <li><a href="#" onclick="setFilter('cuisson');return false;">Cuisson</a></li>
-      <li><a href="#" onclick="setFilter('rangement');return false;">Rangement</a></li>
-    </ul>
+    <ul id="footerCats"></ul>
   </div>
   <div class="footer-col">
     <h4>Informations</h4>
@@ -233,129 +104,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit;}
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
 </button>
 
-<script>
-const DATA = {
-  categories:[
-    {id:"tout",label:"Tout voir",icon:"⭐"},
-    {id:"robot-cuisine",label:"Robots Cuisine",icon:"🤖"},
-    {id:"cafe",label:"Café & Boissons",icon:"☕"},
-    {id:"entretien",label:"Entretien",icon:"🧹"},
-    {id:"cuisson",label:"Cuisson",icon:"🍳"},
-    {id:"rangement",label:"Rangement",icon:"📦"}
-  ],
-  produits:[
-    {id:1,rang:1,categorie:"robot-cuisine",titre:"Thermomix TM6 – Robot cuiseur connecté",desc:"Le robot cuiseur de référence avec 50+ fonctions, guidage pas à pas et accès à 45 000 recettes. Pèse, hache, cuit, mixe — tout en un seul appareil.",points:["50+ fonctions","45 000 recettes","Nettoyage 2 min","Garantie 2 ans"],prix:1449,prix_barre:null,note:4.7,avis:8432,badge:"N°1 Ventes",badge_c:"gold",lien:"https://www.amazon.fr/dp/B07VXW5M7N?tag=jaimazone-21",icone:"🤖"},
-    {id:2,rang:2,categorie:"robot-cuisine",titre:"Moulinex Companion XL – Robot cuisine 4,5L",desc:"Alternative solide au Thermomix avec cuve XL 4,5L, 12 programmes automatiques et prix bien plus accessible. Idéal pour les familles nombreuses.",points:["Cuve 4,5L","12 programmes","Vitesse 0-12","Accessoires inclus"],prix:549.99,prix_barre:699.99,note:4.5,avis:3241,badge:"-21%",badge_c:"red",lien:"https://www.amazon.fr/dp/B08X2Y?tag=jaimazone-21",icone:"🤖"},
-    {id:3,rang:3,categorie:"cafe",titre:"De'Longhi La Specialista Arte – Expresso",desc:"Café de barista à la maison : broyeur intégré à 8 niveaux, chauffe-lait automatique et pré-infusion pour extraire tous les arômes du grain.",points:["Broyeur 8 niveaux","Pression 15 bars","Chauffe-lait auto","Écran LCD"],prix:799,prix_barre:949,note:4.6,avis:2187,badge:"-16%",badge_c:"red",lien:"https://www.amazon.fr/dp/B09KXY?tag=jaimazone-21",icone:"☕"},
-    {id:4,rang:4,categorie:"entretien",titre:"iRobot Roomba j9+ – Aspirateur robot vidage auto",desc:"Cartographie 3D, évite les obstacles, se vide seul pendant 60 jours et se recharge automatiquement. Le robot aspirateur le plus intelligent du marché.",points:["Vidage auto 60j","Cartographie 3D","Évite obstacles","Alexa/Google"],prix:899,prix_barre:1099,note:4.4,avis:5632,badge:"-18%",badge_c:"red",lien:"https://www.amazon.fr/dp/B0BXY?tag=jaimazone-21",icone:"🧹"},
-    {id:5,rang:5,categorie:"cafe",titre:"Nespresso Vertuo Next – Machine capsules",desc:"Technologie Centrifusion pour un crema parfait, 5 tailles de tasse et 30+ arômes disponibles. Chauffe en 30 secondes, silencieuse et compacte.",points:["Centrifusion","5 tailles","Chauffe 30s","Mode éco"],prix:149.99,prix_barre:199.99,note:4.5,avis:12043,badge:"Choix populaire",badge_c:"green",lien:"https://www.amazon.fr/dp/B08NXY?tag=jaimazone-21",icone:"☕"},
-    {id:6,rang:6,categorie:"cuisson",titre:"Ninja Foodi MAX – Friteuse à air 9,5L",desc:"La plus grande friteuse à air du marché. Frite sans huile, rôtit, cuit vapeur, déshydrate et réchauffe. Croustillant garanti pour toute la famille.",points:["Capacité 9,5L","Sans huile","6 modes","Facile à nettoyer"],prix:229.99,prix_barre:279.99,note:4.7,avis:9871,badge:"Bestseller",badge_c:"gold",lien:"https://www.amazon.fr/dp/B09RXY?tag=jaimazone-21",icone:"🍳"},
-    {id:7,rang:7,categorie:"entretien",titre:"Dyson V15 Detect – Aspirateur balai laser",desc:"Le laser révèle les poussières invisibles, l'écran LCD affiche les particules captées en temps réel. 60 minutes d'autonomie, filtre HEPA intégré.",points:["Laser anti-poussière","Écran LCD","60 min autonomie","Filtre HEPA"],prix:649,prix_barre:749,note:4.6,avis:4523,badge:"-13%",badge_c:"red",lien:"https://www.amazon.fr/dp/B09WXY?tag=jaimazone-21",icone:"🧹"},
-    {id:8,rang:8,categorie:"cuisson",titre:"Instant Pot Duo 7-en-1 – 5,7L",desc:"7 fonctions en 1 : cocotte, mijoteuse, autocuiseur, riz, vapeur, yaourtière, réchaud. Cuisine jusqu'à 70% plus vite avec 70% d'économie d'énergie.",points:["7 fonctions en 1","70% énergie","14 programmes","70% plus rapide"],prix:99.99,prix_barre:139.99,note:4.7,avis:28943,badge:"Coup de ♥",badge_c:"pink",lien:"https://www.amazon.fr/dp/B07XY?tag=jaimazone-21",icone:"🍳"},
-    {id:9,rang:9,categorie:"rangement",titre:"KALLAX 4x4 – Étagère modulable IKEA",desc:"L'étagère modulable la plus polyvalente : 16 compartiments, compatible 100+ inserts (tiroirs, portes, paniers). Disponible en 5 coloris, montage simple.",points:["16 compartiments","100+ inserts","Montage simple","5 coloris"],prix:189,prix_barre:null,note:4.5,avis:6782,badge:"Valeur sûre",badge_c:"blue",lien:"https://www.amazon.fr/dp/B06XY?tag=jaimazone-21",icone:"📦"},
-    {id:10,rang:10,categorie:"robot-cuisine",titre:"KitchenAid Artisan – Robot pâtissier 4,8L",desc:"L'icône de la pâtisserie professionnelle. Moteur 300W, 10 vitesses, bol 4,8L inox et 15+ accessoires optionnels. La référence depuis 80 ans.",points:["Moteur 300W","10 vitesses","15+ accessoires","Garantie 5 ans"],prix:549,prix_barre:699,note:4.8,avis:15234,badge:"Top qualité",badge_c:"gold",lien:"https://www.amazon.fr/dp/B00XY?tag=jaimazone-21",icone:"🤖"},
-    {id:11,rang:11,categorie:"cafe",titre:"Sage Barista Express – Expresso grains",desc:"Broyeur conique intégré, température PID précise, pression manuelle réglable. Un vrai expresso de café en grains en moins de 3 minutes à la maison.",points:["Broyeur conique","Température PID","Pression manuelle","Résultats barista"],prix:699.95,prix_barre:799.95,note:4.6,avis:7234,badge:"-13%",badge_c:"red",lien:"https://www.amazon.fr/dp/B08XY?tag=jaimazone-21",icone:"☕"},
-    {id:12,rang:12,categorie:"entretien",titre:"Kärcher K5 Premium – Nettoyeur haute pression",desc:"145 bars de pression, débit 500 L/h, tuyau 10m et technologie Water Cooled pour une utilisation prolongée sans surchauffe. La référence du nettoyage.",points:["145 bars","Débit 500L/h","Tuyau 10m","Water Cooled"],prix:349.99,prix_barre:429.99,note:4.5,avis:11234,badge:"-19%",badge_c:"red",lien:"https://www.amazon.fr/dp/B09XY?tag=jaimazone-21",icone:"🧹"}
-  ]
-};
-
-let filter='tout', sort='rang', query='';
-
-function stars(n){
-  const full=Math.floor(n), half=n%1>=.5?1:0, empty=5-full-half;
-  return '★'.repeat(full)+(half?'½':'')+'☆'.repeat(empty);
-}
-
-function card(p,i){
-  const cat=DATA.categories.find(c=>c.id===p.categorie)?.label||p.categorie;
-  const promo=p.prix_barre?`<div class="price-old">${p.prix_barre.toFixed(2)} €</div>`:'';
-  const pts=p.points.slice(0,3).map(t=>`<span class="card-point">${t}</span>`).join('');
-  const delay=Math.min(i*.06,.6);
-  return `
-  <article class="product-card" style="animation-delay:${delay}s">
-    <div class="card-rank ${p.rang<=3?'top3':''}">${p.rang}</div>
-    ${p.badge?`<div class="card-badge badge-${p.badge_c}">${p.badge}</div>`:''}
-    <div class="card-image">${p.icone}</div>
-    <div class="card-body">
-      <div class="card-category">${cat}</div>
-      <h2 class="card-title">${p.titre}</h2>
-      <p class="card-desc">${p.desc}</p>
-      <div class="card-points">${pts}</div>
-      <div class="card-rating">
-        <div class="stars">${stars(p.note)}</div>
-        <span class="rating-num">${p.note}</span>
-        <span class="rating-count">(${p.avis.toLocaleString('fr-FR')} avis)</span>
-      </div>
-    </div>
-    <div class="card-footer">
-      <div class="card-price">
-        <div class="price-current">${p.prix.toFixed(2)} €</div>
-        ${promo}
-      </div>
-      <a href="${p.lien}" target="_blank" rel="noopener sponsored" class="btn-amazon">
-        Voir sur Amazon
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-      </a>
-    </div>
-  </article>`;
-}
-
-function getList(){
-  let l=[...DATA.produits];
-  if(filter!=='tout') l=l.filter(p=>p.categorie===filter);
-  if(query){const q=query.toLowerCase();l=l.filter(p=>p.titre.toLowerCase().includes(q)||p.desc.toLowerCase().includes(q)||p.points.some(t=>t.toLowerCase().includes(q)));}
-  if(sort==='prix-asc')l.sort((a,b)=>a.prix-b.prix);
-  else if(sort==='prix-desc')l.sort((a,b)=>b.prix-a.prix);
-  else if(sort==='note')l.sort((a,b)=>b.note-a.note);
-  else if(sort==='avis')l.sort((a,b)=>b.avis-a.avis);
-  else l.sort((a,b)=>a.rang-b.rang);
-  return l;
-}
-
-function render(){
-  const l=getList();
-  document.getElementById('countAffiche').textContent=l.length;
-  document.getElementById('productsGrid').innerHTML=l.length
-    ?l.map((p,i)=>card(p,i)).join('')
-    :`<div class="empty-state"><div class="icon">🔍</div><h3>Aucun produit trouvé</h3><p>Essayez un autre terme ou une autre catégorie.</p></div>`;
-}
-
-function buildFilters(){
-  document.getElementById('filtersContainer').innerHTML=DATA.categories.map(c=>`
-    <button class="filter-btn ${c.id==='tout'?'active':''}" onclick="setFilter('${c.id}')" data-cat="${c.id}">${c.icon} ${c.label}</button>
-  `).join('');
-}
-
-window.setFilter=function(id){
-  filter=id;
-  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.toggle('active',b.dataset.cat===id));
-  render();
-};
-
-function counter(el,target,dur=1200){
-  let start=null;
-  const step=ts=>{
-    if(!start)start=ts;
-    const p=Math.min((ts-start)/dur,1);
-    el.textContent=Math.round((1-Math.pow(1-p,3))*target);
-    if(p<1)requestAnimationFrame(step);
-  };
-  requestAnimationFrame(step);
-}
-
-const scrollBtn=document.getElementById('scrollTop');
-window.addEventListener('scroll',()=>scrollBtn.classList.toggle('visible',scrollY>400),{passive:true});
-
-document.addEventListener('DOMContentLoaded',()=>{
-  buildFilters();render();
-  counter(document.getElementById('counterProduits'),DATA.produits.length);
-  let t;
-  document.getElementById('searchInput').addEventListener('input',e=>{
-    clearTimeout(t);t=setTimeout(()=>{query=e.target.value.trim();render();},200);
-  });
-  document.getElementById('sortSelect').addEventListener('change',e=>{sort=e.target.value;render();});
-});
-</script>
 <script src="./js/utils.js"></script>
+<script src="./js/app.js"></script>
 </body>
 </html>

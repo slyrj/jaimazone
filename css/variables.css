@@ -1,10 +1,7 @@
 /* =============================================
    variables.css — Tokens globaux JaiMaZone
-   Importé en tête de chaque page si besoin
    ============================================= */
-
 :root {
-  /* Couleurs */
   --black:      #0A0A0A;
   --dark:       #141414;
   --card:       #1C1C1C;
@@ -21,25 +18,14 @@
   --pink:       #EC4899;
   --gold:       #F59E0B;
   --white:      #FFFFFF;
-
-  /* Typographie */
   --font-display: 'Syne', sans-serif;
   --font-body:    'Inter', sans-serif;
-
-  /* Bordures arrondies */
   --r-sm:  8px;
   --r-md:  14px;
   --r-lg:  20px;
   --r-xl:  28px;
-
-  /* Ombres */
   --shadow-card:  0 4px 24px rgba(0,0,0,.45);
   --shadow-hover: 0 12px 48px rgba(255,149,0,.18);
-
-  /* Transitions */
   --transition: .25s cubic-bezier(.4,0,.2,1);
-
-  /* Layout */
-  --max-width:  1400px;
-  --padding-x:  clamp(16px, 4vw, 48px);
+  --padding-x: clamp(16px, 4vw, 48px);
 }
