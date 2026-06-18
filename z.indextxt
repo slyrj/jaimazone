@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Les 50 meilleurs produits Maison & Cuisine Amazon, sélectionnés et mis à jour quotidiennement. Robots cuiseurs, machines à café, aspirateurs — les vraies meilleures ventes.">
+<meta name="robots" content="index, follow">
+<title>JaiMaZone – Top 50 Maison & Cuisine | Meilleures ventes Amazon FR</title>
+<link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/variables.css">
+<link rel="stylesheet" href="./css/utils.css">
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-logo">Jai<span>Ma</span>Zone</div>
+  <div class="nav-search">
+    <svg class="nav-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" id="searchInput" placeholder="Rechercher un produit…" autocomplete="off">
+  </div>
+  <div class="nav-meta"><div class="nav-dot"></div>Mis à jour aujourd'hui</div>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      Sélection mise à jour quotidiennement
+    </div>
+    <h1 class="hero-title">Les <em>meilleures ventes</em><br>Maison &amp; Cuisine</h1>
+    <p class="hero-subtitle">On scrute Amazon chaque jour pour vous dénicher les produits que les Français achètent vraiment — robots cuiseurs, café, aspirateurs, cuisson. Que des vraies pépites.</p>
+  </div>
+  <div class="hero-stats">
+    <div>
+      <div class="hero-stat-num" id="counterProduits">0</div>
+      <div class="hero-stat-label">produits sélectionnés</div>
+    </div>
+    <div class="hero-stat-divider"></div>
+    <div>
+      <div class="hero-stat-num">24h</div>
+      <div class="hero-stat-label">fréquence de mise à jour</div>
+    </div>
+    <div class="hero-stat-divider"></div>
+    <div>
+      <div class="hero-stat-num">4,6★</div>
+      <div class="hero-stat-label">note moyenne</div>
+    </div>
+  </div>
+</section>
+
+<div class="filters-wrap"><div class="filters" id="filtersContainer"></div></div>
+
+<div class="results-bar">
+  <div class="results-count"><strong id="countAffiche">0</strong> produits affichés</div>
+  <select class="sort-select" id="sortSelect">
+    <option value="rang">Classement Amazon</option>
+    <option value="prix-asc">Prix croissant</option>
+    <option value="prix-desc">Prix décroissant</option>
+    <option value="note">Meilleures notes</option>
+    <option value="avis">Plus d'avis</option>
+  </select>
+</div>
+
+<main class="products-grid" id="productsGrid">
+  <div class="loading-state">
+    <div class="spinner"></div>
+    <p>Chargement des produits…</p>
+  </div>
+</main>
+
+<div class="affil-banner">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;color:var(--orange)"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+  <span><strong>Programme Amazon Partenaires</strong> — En cliquant sur un produit, vous êtes redirigé vers Amazon. Nous percevons une commission sur les ventes réalisées, sans frais supplémentaires pour vous. Prix mis à jour quotidiennement.</span>
+</div>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <div class="nav-logo">Jai<span>Ma</span>Zone</div>
+    <p>La sélection quotidienne des meilleures ventes Amazon dans la catégorie Maison &amp; Cuisine. Tous les produits sont sélectionnés par algorithme, jamais par publicité.</p>
+  </div>
+  <div class="footer-col">
+    <h4>Catégories</h4>
+    <ul id="footerCats"></ul>
+  </div>
+  <div class="footer-col">
+    <h4>Informations</h4>
+    <ul>
+      <li><a href="#">À propos</a></li>
+      <li><a href="#">Comment nous sélectionnons</a></li>
+      <li><a href="#">Mentions légales</a></li>
+      <li><a href="#">Programme Partenaires Amazon</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <span>© 2025 JaiMaZone.fr — Tous droits réservés</span>
+  <span>Partenaire Amazon · <a href="#">Confidentialité</a> · <a href="#">Mentions légales</a></span>
+</div>
+
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Retour en haut">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<script src="./js/utils.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
